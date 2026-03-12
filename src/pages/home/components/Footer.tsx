@@ -10,9 +10,9 @@ export default function Footer() {
     <footer id="contact" className="bg-[#2C3E50] text-white">
       {/* Main Footer Content */}
       <div className="max-w-[1440px] mx-auto px-6 lg:px-20 py-16 lg:py-20">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
           {/* Company Info */}
-          <div className="lg:col-span-1">
+          <div className="sm:col-span-2 lg:col-span-1">
             <img 
               src="https://public.readdy.ai/ai/img_res/69a8b931-4903-4197-988f-d81d2ce51daf.png" 
               alt="Professional Services Logo" 
@@ -101,7 +101,7 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-6">Contact</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <i className="ri-map-pin-line text-[#1e3a5f] text-xl flex-shrink-0 mt-1"></i>
+                <i className="ri-map-pin-line text-[#4a7ab5] text-xl flex-shrink-0 mt-1"></i>
                 <span className="text-gray-300">
                   123 Professional Plaza<br />
                   Suite 400<br />
@@ -109,14 +109,14 @@ export default function Footer() {
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <i className="ri-phone-line text-[#1e3a5f] text-xl flex-shrink-0"></i>
-                <a href="tel:+15551234567" className="text-gray-300 hover:text-white transition-colors whitespace-nowrap">
+                <i className="ri-phone-line text-[#4a7ab5] text-xl flex-shrink-0"></i>
+                <a href="tel:+15551234567" className="text-gray-300 hover:text-white transition-colors">
                   (555) 123-4567
                 </a>
               </li>
-              <li className="flex items-center gap-3">
-                <i className="ri-mail-line text-[#1e3a5f] text-xl flex-shrink-0"></i>
-                <a href="mailto:info@professionalservices.com" className="text-gray-300 hover:text-white transition-colors whitespace-nowrap">
+              <li className="flex items-start gap-3">
+                <i className="ri-mail-line text-[#4a7ab5] text-xl flex-shrink-0 mt-1"></i>
+                <a href="mailto:info@professionalservices.com" className="text-gray-300 hover:text-white transition-colors break-all">
                   info@professionalservices.com
                 </a>
               </li>
@@ -127,22 +127,22 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-6">Business Hours</h3>
             <ul className="space-y-3">
-              <li className="flex justify-between text-gray-300">
-                <span>Monday - Friday</span>
-                <span className="font-semibold text-white whitespace-nowrap">9:00 AM - 6:00 PM</span>
+              <li className="flex flex-col sm:flex-row sm:justify-between gap-1 text-gray-300">
+                <span>Monday – Friday</span>
+                <span className="font-semibold text-white">9:00 AM – 6:00 PM</span>
               </li>
-              <li className="flex justify-between text-gray-300">
+              <li className="flex flex-col sm:flex-row sm:justify-between gap-1 text-gray-300">
                 <span>Saturday</span>
-                <span className="font-semibold text-white whitespace-nowrap">10:00 AM - 3:00 PM</span>
+                <span className="font-semibold text-white">10:00 AM – 3:00 PM</span>
               </li>
-              <li className="flex justify-between text-gray-300">
+              <li className="flex flex-col sm:flex-row sm:justify-between gap-1 text-gray-300">
                 <span>Sunday</span>
-                <span className="font-semibold text-white whitespace-nowrap">Closed</span>
+                <span className="font-semibold text-white">Closed</span>
               </li>
             </ul>
             <div className="mt-6 p-4 bg-white/5 rounded-lg border border-white/10">
               <p className="text-sm text-gray-300">
-                <i className="ri-information-line text-[#1e3a5f] mr-2"></i>
+                <i className="ri-information-line text-[#4a7ab5] mr-2"></i>
                 Evening appointments available by request
               </p>
             </div>

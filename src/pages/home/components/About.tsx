@@ -14,8 +14,8 @@ export default function About() {
             <div className="relative">
               <div className="rounded-3xl overflow-hidden border-4 border-[#1e3a5f] shadow-2xl">
                 <img
-                  src="https://readdy.ai/api/search-image?query=professional%20business%20person%20in%20formal%20attire%20confident%20pose%20modern%20office%20setting%20navy%20blue%20suit%20white%20background%20corporate%20headshot%20portrait%20style%20professional%20photography%20high%20quality&width=600&height=750&seq=about-professional-headshot&orientation=portrait"
-                  alt="Professional Headshot"
+                  src="https://public.readdy.ai/ai/img_res/edited_55617f80c39be42811164c9bb09edc8e_502c1b12.jpg"
+                  alt="Professional CEO Headshot"
                   className="w-full h-auto object-cover object-top"
                 />
               </div>
